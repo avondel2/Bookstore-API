@@ -1,6 +1,7 @@
 Bookstore Backend API Example
 
-API Document : https://documenter.getpostman.com/view/9234088/TVRdABr8#98759510-573d-46f1-92e5-c55312d3a6a2
+#API Document 
+https://documenter.getpostman.com/view/9234088/TVRdABr8#98759510-573d-46f1-92e5-c55312d3a6a2
 
 ## API List
 
@@ -18,25 +19,7 @@ API Document : https://documenter.getpostman.com/view/9234088/TVRdABr8#98759510-
 
 ## Database
 
-Mongodb
-
-Database : Bookstore
-    bookname: String,
-    barcode:{type:Number,unique:true},
-    quantity: {type:Number,min:0,default:0}
-
-        bookID:{type:mongoose.Schema.Types.ObjectId},
-    userID:{type:mongoose.Schema.Types.ObjectId},
-    returned:{type:Boolean,default:false},
-    RentDate:{type:Date,default:Date.now},
-    ReturnDate:{type:Date,min:Date.now,default:null}
-  })
-
-      username: {type:String,unique:true,lowercase:true},
-    password: {type:String},
-    fullname: {type:String},
-    roles:{type:String,default:"Customer"}
-
+Database : Mongodb
 
 ### Collection 
 | Collection    | Field Name    | DataType  |
