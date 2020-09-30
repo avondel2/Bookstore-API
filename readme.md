@@ -22,7 +22,6 @@
 
 Database : Mongodb
 
-### Collection 
 | Collection    | Field Name    | DataType  |
 | ----------    | ----------    | -------   |
 | User          | _id           | ObjectId  |
